@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Mulish:wght@300;400;600;700&display=swap");
+/*Основные*/
+
+html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+span {
+  font-weight: 1000;
+  opacity: 1;
+  color: rgba(31, 21, 52, 1);
+}
+
+a {
+  text-decoration: none;
+  color: #1f1534;
+}
+
+/*Шапка*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.logo {
+  margin-top: 56px;
+  margin-left: 191px;
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+}
+.logo_img {
+  height: 41px;
+  width: 41px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+}
+.logo_text {
+  margin-left: 12px;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  color: #233348;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 192px;
+  margin-top: 70px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav > li {
+  margin-left: 40px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  height: 23px;
+}
+
+/*Контент Зона ( Основная )*/
+.welcome {
+  width: 100%;
+  margin-left: 191px;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+.welcome_text {
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
+  height: 32px;
+  font-size: 21px;
+  width: 500px;
+  height: 338px;
+}
+.welcome_text p {
+  color: rgba(125, 121, 135, 1);
+}
+.welcome_img {
+  background-image: url(../img/main_img.png);
+  margin-top: 84px;
+  margin-left: 255px;
+  margin-right: 163px;
+  width: 693px;
+  height: 598px;
+}
+.button {
+  background-image: url(../img/obj.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  height: 56px;
+  width: 200px;
+  border: none;
+  outline: none;
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  appearance: none;
+  touch-action: manipulation;
+}
+/*2 часть*/
+.classes {
+  width: 100%;
+  margin: 356px auto 54px;
+}
+/*Стили для шапки*/
+.classes_header_head {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  text-align: center;
+  align-items: center;
+}
+.classes hr {
+  width: 56px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 26px auto 33px;
+  align-items: center;
+}
+.classes_header_text {
+  height: 60px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+  mix-blend-mode: normal;
+  text-align: center;
+  align-items: center;
+}
+/*Карточки*/
+.services {
+  width: 1123px;
+  margin: 80px auto;
+  display: grid;
+  grid-template-rows: 350px 350px;
+  grid-template-columns: 350px 350px 350px;
+  grid-gap: 36px;
+  align-items: center;
+}
+.services-item {
+  padding: 54px 45px 47px 37px;
+}
+.services-item h3 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+  color: #000000;
+  mix-blend-mode: normal;
+}
+.services-item p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7d7987;
+  mix-blend-mode: normal;
+}
+.services-item1 {
+  padding: 54px 45px 47px 37px;
+}
+
+.services-item1 h3 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+  color: #000000;
+  mix-blend-mode: normal;
+}
+.services-item1 p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7d7987;
+  mix-blend-mode: normal;
+}
+.button-item {
+  margin-top: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-item {
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+  height: 56px;
+  width: 200px;
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #458ff6;
+  mix-blend-mode: normal;
+  cursor: pointer;
+  user-select: none;
+  appearance: none;
+  touch-action: manipulation;
+}
