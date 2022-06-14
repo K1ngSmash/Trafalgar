@@ -15,6 +15,9 @@ a {
   text-decoration: none;
   color: #1f1534;
 }
+* {
+  box-sizing: border-box;
+}
 
 /*Шапка*/
 .header {
@@ -222,4 +225,50 @@ a {
   user-select: none;
   appearance: none;
   touch-action: manipulation;
+}
+.scnd {
+  flex-direction: row-reverse;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.block-text h4 {
+  height: 112px;
+  width: 481px;
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  margin: 0;
+}
+.block-text p {
+  height: 128px;
+  width: 450px;
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: rgba(125, 121, 135, 1);
+}
+.block-text hr {
+  width: 56px;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: baseline;
+}
+.projects-block img {
+  width: 665px;
+  height: 434px;
+  display: block;
+}
+.st {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 260px;
+}
+.projects {
+  margin: 54px 192px 251px 280px;
 }
