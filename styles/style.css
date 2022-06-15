@@ -272,3 +272,77 @@ a {
 .projects {
   margin: 54px 192px 251px 280px;
 }
+.adv-header hr {
+  width: 56px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 26px auto 72px;
+  align-items: center;
+}
+.adv-header h4 {
+  display: flex;
+  justify-content: center;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  mix-blend-mode: normal;
+}
+.card img {
+  width: 370px;
+  height: 240px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.card {
+  flex-flow: column nowrap;
+  margin-right: 50px;
+  margin-bottom: 60px;
+  align-items: center;
+  display: flex;
+}
+.adv-cards {
+  display: flex;
+  justify-content: center;
+}
+.card h5 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  height: 64px;
+  width: 251px;
+  left: 273px;
+}
+.card p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7d7987;
+  mix-blend-mode: normal;
+  height: 84px;
+  width: 266px;
+}
+.card a {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  color: #4089ed;
+  mix-blend-mode: normal;
+  float: left;
+}
+.fa-long-arrow-right {
+  margin-left: 10px;
+}
+.adv button {
+  display: block;
+  justify-content: center;
+  margin: 0 auto 137px auto;
+}
