@@ -18,6 +18,15 @@ a {
 * {
   box-sizing: border-box;
 }
+input::-webkit-input-placeholder {
+  color: #ccc !important;
+}
+input::-moz-placeholder {
+  color: #ccc !important;
+}
+input:-ms-input-placeholder {
+  color: #ccc !important;
+}
 
 /*Шапка*/
 .header {
@@ -384,4 +393,88 @@ a {
 }
 .video-button img {
   margin-right: 10px;
+}
+.email-title h5 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.email-title p {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #999999;
+}
+.email-input {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  width: 357px;
+  height: 60px;
+  align-items: center;
+}
+.email-end {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.email-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background: #4089ed;
+  height: 60px;
+  width: 190px;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 0px 30px 30px 0px;
+  display: flex;
+  align-items: center;
+}
+.email-text p {
+  margin-left: 46px;
+}
+input {
+  border: none;
+  display: none;
+  display: block;
+  outline: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #999999;
+}
+.email-end {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  color: #999999;
 }
