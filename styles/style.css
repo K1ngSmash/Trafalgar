@@ -18,14 +18,12 @@ a {
 * {
   box-sizing: border-box;
 }
-input::-webkit-input-placeholder {
-  color: #ccc !important;
-}
-input::-moz-placeholder {
-  color: #ccc !important;
-}
-input:-ms-input-placeholder {
-  color: #ccc !important;
+ul,
+li {
+  list-style: none;
+  margin: 0;
+
+  padding: 0;
 }
 
 /*Шапка*/
@@ -477,4 +475,43 @@ input {
   line-height: 21px;
   text-align: center;
   color: #999999;
+}
+.footer {
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  width: 100%;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-left: 140px;
+}
+.logo-footer {
+  display: flex;
+  align-items: center;
+}
+.text-place {
+  width: 400px;
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.links-ft {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: #ffffff;
+  list-style: none;
+  margin-right: 150px;
+}
+.links-ft:last-child {
+  margin-right: 0px;
 }
