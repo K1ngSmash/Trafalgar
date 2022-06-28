@@ -67,13 +67,12 @@ li {
 .nav {
   display: flex;
   justify-content: flex-start;
-}
-
-.nav > li {
-  margin-left: 40px;
   font-family: "Mulish", sans-serif;
   font-weight: 400;
   height: 23px;
+}
+.nav a {
+  margin-right: 10px;
 }
 
 /*Контент Зона ( Основная )*/
